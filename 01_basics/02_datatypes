@@ -1,0 +1,23 @@
+"use strict"; //treat all JS code as newer version
+//alert will not run in node
+//code readability shouldbe high
+
+
+/*
+number
+bigInt
+string=>""
+boolean=>true/false
+null=>standalone value
+undefined=> abhi value assign nehni hua he
+symbol=>unique 
+*/
+
+/*
+
+object
+*/
+
+console.log(typeof "hitesh");
+console.log(typeof null);
+console.log(typeof undefined);
