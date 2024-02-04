@@ -18,3 +18,8 @@ console.table(typeof bool)
 console.table(typeof nu)
 console.table(typeof ud)
 console.table(typeof func)
+// *********************************************************************************
+/*
+primitive datatype=>stack memory=>copy mile=>ist variable re change kle 2nd upare effect padeni
+nonprimitive datatype=>heap memory=>reference mile=>ist re change kale 2nd re effect pade
+*/
