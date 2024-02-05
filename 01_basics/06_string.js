@@ -26,3 +26,22 @@ const url="https://hitesh.com/hitesh%20choudhary"
 console.log(url.replace("%20","**"));
 console.log(url.includes("mihir"));
 console.log(gameName.split("-"));
+
+/*
+Different Methods of String
+
+toUpperCase,toLowerCase
+charAt,charCodeAt
+indexOf,lastIndexOf
+subString
+slice
+trim
+replace
+includes=>true/false
+split
+concat
+constructor
+endsWith
+valueOf
+toString
+*/
