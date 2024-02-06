@@ -6,7 +6,7 @@ console.log(myArr2[1]);
 
 // Methods of Array 
 // Push pop unshift shift 
-// includes indexOf join=>converts the array into string
+// includes=>check a element exist or not return true/false. indexOf join=>converts the array into string
 
 /*
 difference between slice and splice
