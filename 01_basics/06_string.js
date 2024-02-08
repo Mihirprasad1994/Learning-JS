@@ -45,3 +45,22 @@ endsWith
 valueOf
 toString
 */
+let string1="mihir prasad bhuyan!"
+let string2="sameer prasad bhuyan"
+let string3= new String("devi prasad bhuyan")
+
+console.log(string1.toUpperCase())
+console.log(string1.charAt(7))
+console.log(string1.charCodeAt(7))
+console.log(string1.indexOf("z"))
+console.log(string1.lastIndexOf("bhuyan"))
+console.log(string1.substring(0,9))
+console.log(string1.slice(-18,12))
+console.log(string1.trim())
+console.log(string1.replace("prasad","kumar"))
+console.log(string1.includes("kumar"))
+console.log(string1.split(" "))
+console.log(string1.concat(" ",string2))
+console.log(string1.endsWith("bhuyan!"))
+console.log(typeof string3);
+console.log(typeof string3.toString());
