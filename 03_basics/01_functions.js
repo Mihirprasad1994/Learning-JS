@@ -17,3 +17,24 @@ function addTwoNumbers(number1,number2){
 }
 const result=addTwoNumbers(4,5)
 console.log(result)
+
+function calculateCartPrice(...sum){
+    return sum
+}
+console.log(calculateCartPrice(100,200,300,400,500));
+
+const user={
+    userName:"mihir",
+    price:199
+}
+function handleObject(anyObject){
+    console.log(`username is ${anyObject.userName} and price is ${anyObject.price}`);
+}
+handleObject(user)
+
+const myNewArray=[100,200,300,400]
+function returnSecondValue(getArray){
+    return getArray[1]
+}
+
+console.log(returnSecondValue(myNewArray));
